@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Adam</title>
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Bagian Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">MyPortfolio</h1>
+            <!-- Navigasi -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bagian Hero (Intro) -->
+    <section class="hero">
+        <div class="container hero-content">
+            <!-- Foto profil -->
+            <div class="profile-image">
+                <img src="./image/profile.jpg" alt="Profile Picture">
+            </div>
+            <!-- Teks Hero -->
+            <div class="hero-text">
+                <h2 class="hero-title">Hi, I'm <span class="highlight">Adam Fawwaz Aydin</span></h2>
+                <p class="hero-subtitle">A passionate <span class="highlight">Front End Web Developer</span>.</p>
+                <a href="#projects" class="cta-button">View My Project</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Bagian About -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Halo, nama saya Adam Fawwaz Aydin, saya kuliah di Universitas Gunadarma, Fakultas Teknologi Industri, Jurusan Informatika, saat ini saya berada di semester 5.</p>
+        </div>
+    </section>
+
+    <!-- Bagian Projects -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <!-- Kartu proyek pertama -->
+                <a href="https://www.figma.com/design/JPIJWlGNslAHtrKuNwxgFm/PERT2web?node-id=0-1&t=i9XF2KeFFZ8rHlxv-1" class="project-card" target="_blank">
+                    <img src="./image/project1.png" alt="Project 1">
+                    <h3>Project UI Design Aplikasi LetterBoxd</h3>
+                    <p>Disini saya mambuat UI design dari aplikasi LetterBoxd dengan UI yang baru dan diberi tambahan beberapa fitur</p>
+                </a>
+            
+                <!-- Kartu proyek kedua -->
+                <a href="https://adamfawwazaydin.github.io/dumy1.github.io/" class="project-card" target="_blank">
+                    <img src="./image/toktok.png" alt="Project 2">
+                    <h3>Dumy Project TOKTOK</h3>
+                    <p>disini saya membuat halaman website sederhana toktok shop. disini baru bisa menambahkan ke keranjang dan menghapus keranjang</p>
+                </a>
+            
+                <!-- Kartu proyek ketiga -->
+                <!-- <a href="https://www.example.com/project3" class="project-card" target="_blank">
+                    <img src="./image/project3.jpg" alt="Project 3">
+                    <h3>Dumy Project 3</h3>
+                    <p>labore amet eiusmod dolor dolore et ut sed sit tempor magna Lorem sit elit elit magna dolor eiusmod magna incididunt</p>
+                </a> -->
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <!-- Input nama -->
+                <input type="text" placeholder="Your Name" required>
+                <!-- Input email -->
+                <input type="email" placeholder="Your Email" required>
+                <!-- Pesan -->
+                <textarea placeholder="Your Message" required></textarea>
+                <!-- Tombol Kirim -->
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Adam Fawwaz Aydin. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
